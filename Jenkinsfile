@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
 	agent {label "linux"}
 	options {
 		buildeDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
